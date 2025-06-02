@@ -13,13 +13,13 @@ export type baseUrlsType = keyof IBaseUrls;
 
 
 export const baseUrlsENV: IBaseUrls = {
-    REACT_APP_BASE_API_URL: process.env.VITE_REACT_APP_BASE_API_URL,
-    REACT_APP_API_URL: process.env.VITE_REACT_APP_API_URL,
+    REACT_APP_BASE_API_URL:" process.env.VITE_REACT_APP_BASE_API_URL",
+    REACT_APP_API_URL: "process.env.VITE_REACT_APP_API_URL",
 };
 
 export const baseUrls: IBaseUrls = {
-    REACT_APP_BASE_API_URL: process.env.VITE_REACT_APP_BASE_API_URL,
-    REACT_APP_API_URL: process.env.VITE_REACT_APP_API_URL,
+    REACT_APP_BASE_API_URL: "process.env.VITE_REACT_APP_BASE_API_URL",
+    REACT_APP_API_URL: "process.env.VITE_REACT_APP_API_URL",
 };
 
 const config = {

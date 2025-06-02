@@ -33,8 +33,12 @@ export class CRUDService<
         customEndpoints?: ICustomEndpoints,
         extraConfig?: RequestConfig
     ) {
+
+        console.log("extraConfig",extraConfig);
+        console.log("config",config);
+        
         super({
-            baseURL: `${"enter-your-base-url"}${serviceName}`,
+            baseURL: `${ "enter-your-base-url" }/${serviceName}`,
             ...extraConfig,
             headers: {...config.headers, ...extraConfig?.headers},
 
